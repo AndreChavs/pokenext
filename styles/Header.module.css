@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background: #333;
+    color: #fff;
+}
+/**/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1{
+    margin-left: .5em;
+}
+/**/
+.menuList{
+    display: flex;
+    list-style: none;
+
+}
+.menuList li{
+    margin-right: 1.3em;
+}
+.menuList li:last-child{
+    margin-right: 0;
+}
+.menuList li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+.menuList li a:hover{
+    border-color: #fff;
+}
